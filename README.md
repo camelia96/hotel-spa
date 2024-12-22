@@ -27,12 +27,6 @@ cd hotel-spa
 ```
 
 
-### 2. Navigate to the project directory
-```bash
-
-```
-
-
 ### 3. Install dependencies
 ```bash
 npm install
