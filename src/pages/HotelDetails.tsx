@@ -87,7 +87,6 @@ function HotelDetails() {
 
             {/* Hotel display */}
             <div className='flex flex-col items-center'>
-
                 {hotel && <HotelCard hotel={hotel} showLink={false} />}
             </div>
 
