@@ -1,0 +1,190 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Seaside Paradise",
+      "location": "Maldives",
+      "rating": 4.9,
+      "imageUrl": "https://i.pinimg.com/736x/f3/66/25/f36625dfa2b9c952684bf3d82ab2def7.jpg",
+      "datesOfTravel": ["2024-01-01", "2024-01-07"],
+      "boardBasis": "All Inclusive",
+      "rooms": [
+        {
+          "roomType": "Deluxe Suite",
+          "amount": 5
+        },
+        {
+          "roomType": "Family Room",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mountain Retreat",
+      "location": "Swiss Alps",
+      "rating": 4.7,
+      "imageUrl": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/371008s.jpg?im=Resize,width=750",
+      "datesOfTravel": ["2024-02-15", "2024-02-22"],
+      "boardBasis": "Bed & Breakfast",
+      "rooms": [
+        {
+          "roomType": "Standard Room",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Urban Oasis",
+      "location": "New York City, USA",
+      "rating": 4.5,
+      "imageUrl": "https://i.pinimg.com/736x/b7/a6/fe/b7a6fe58d181021b084ce92a6bd26ae0.jpg",
+      "datesOfTravel": ["2024-03-10", "2024-03-17"],
+      "boardBasis": "Room Only",
+      "rooms": [
+        {
+          "roomType": "Luxury Suite",
+          "amount": 2
+        },
+        {
+          "roomType": "Standard Room",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Desert Dream",
+      "location": "Dubai, UAE",
+      "rating": 4.8,
+      "imageUrl": "https://i.pinimg.com/736x/18/51/e6/1851e6a4cbdcde180005553d732abfcd.jpg",
+      "datesOfTravel": ["2024-04-01", "2024-04-10"],
+      "boardBasis": "Half Board",
+      "rooms": [
+        {
+          "roomType": "Luxury Villa",
+          "amount": 10
+        },
+        {
+          "roomType": "Family Room",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tropical Escape",
+      "location": "Bali, Indonesia",
+      "rating": 4.6,
+      "imageUrl": "https://i.pinimg.com/736x/57/81/ac/5781ac50c6c556bbc73d80f70265abce.jpg",
+      "datesOfTravel": ["2024-05-01", "2024-05-10"],
+      "boardBasis": "All Inclusive",
+      "rooms": [
+        {
+          "roomType": "Beach Villa",
+          "amount": 8
+        },
+        {
+          "roomType": "Garden Room",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Historic Haven",
+      "location": "Rome, Italy",
+      "rating": 4.4,
+      "imageUrl": "https://i.pinimg.com/736x/0e/89/d3/0e89d3ac4714194685ae44701edd598b.jpg",
+      "datesOfTravel": ["2024-06-01", "2024-06-07"],
+      "boardBasis": "Breakfast Included",
+      "rooms": [
+        {
+          "roomType": "Classic Room",
+          "amount": 15
+        },
+        {
+          "roomType": "Luxury Suite",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Safari Lodge",
+      "location": "Serengeti, Tanzania",
+      "rating": 4.9,
+      "imageUrl": "https://i.pinimg.com/736x/87/da/29/87da29f7465380a51ac77e24eb3f5606.jpg",
+      "datesOfTravel": ["2024-07-10", "2024-07-20"],
+      "boardBasis": "Full Board",
+      "rooms": [
+        {
+          "roomType": "Luxury Tent",
+          "amount": 10
+        },
+        {
+          "roomType": "Family Suite",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ocean Breeze",
+      "location": "Gold Coast, Australia",
+      "rating": 4.3,
+      "imageUrl": "https://i.pinimg.com/736x/54/b3/ac/54b3acbb204c73ef25ba8bae3ffb4d39.jpg",
+      "datesOfTravel": ["2024-08-01", "2024-08-10"],
+      "boardBasis": "Self Catering",
+      "rooms": [
+        {
+          "roomType": "Ocean View Suite",
+          "amount": 6
+        },
+        {
+          "roomType": "Family Room",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Rainforest Retreat",
+      "location": "Costa Rica",
+      "rating": 4.7,
+      "imageUrl": "https://i.pinimg.com/736x/8e/17/52/8e1752778af4042acb4e44ad0b02426d.jpg",
+      "datesOfTravel": ["2024-09-01", "2024-09-15"],
+      "boardBasis": "All Inclusive",
+      "rooms": [
+        {
+          "roomType": "Jungle Bungalow",
+          "amount": 7
+        },
+        {
+          "roomType": "Standard Room",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Island Bliss",
+      "location": "Hawaii, USA",
+      "rating": 4.8,
+      "imageUrl": "https://i.pinimg.com/736x/ba/22/97/ba2297253815d3d93069120f986f4487.jpg",
+      "datesOfTravel": ["2024-10-01", "2024-10-10"],
+      "boardBasis": "Full Board",
+      "rooms": [
+        {
+          "roomType": "Beachfront Suite",
+          "amount": 12
+        },
+        {
+          "roomType": "Standard Room",
+          "amount": 15
+        }
+      ]
+    }
+  ]
+}
