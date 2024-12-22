@@ -18,7 +18,7 @@ function HotelDetails() {
     /* Get id from URL */
     const { id } = useParams();
 
-    /*  */
+    /* Check if URL id is valid */
     const validId = (id: string | undefined): boolean => {
         return id !== undefined && !isNaN(Number(id));
     };
@@ -59,14 +59,16 @@ function HotelDetails() {
 
             } catch (err: any) {
 
+                /* Handle errors */
                 if (err.response?.status == 500 || err.response?.status == 404) {
                     setError({ error: true, message: "An unexpected event ocurred" })
                 } else {
                     setError({ error: true, message: "Hotel not found" })
                 }
 
+                /* If theres any error, theres no hotel to render */
                 setHotel(undefined)
-
+                
                 setLoading(false)
             }
 

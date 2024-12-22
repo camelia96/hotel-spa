@@ -13,12 +13,14 @@ function Hotels() {
 
 
   useEffect(() => {
-    /* Fetch hotels */
+    
     const fetchHotels = async () => {
       setLoading(true)
 
       /* Timeout to show the loading spinner */
       setTimeout(() => {
+
+        /* Fetch the data */
         axios.get("http://localhost:3000/hotels")
           .then(response => {
 
@@ -27,7 +29,7 @@ function Hotels() {
               throw new Error()
             }
 
-
+            /* Set the hotels list to render */
             setHotels(response.data);
             setError({ error: false, message: "" })
 
@@ -36,14 +38,16 @@ function Hotels() {
           })
 
 
-          /* Error handling */
           .catch((err: any) => {
+            /* Error handling */
 
             if (err.response?.status == 500 || err.response?.status == 404) {
               setError({ error: true, message: "An unexpected event ocurred" })
             } else {
               setError({ error: true, message: "There was an error trying to get the hotels. Please try again later" })
             }
+
+            /* If theres any error, we do not want to show any list */
             setHotels([])
 
           })
